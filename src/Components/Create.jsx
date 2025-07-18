@@ -20,10 +20,6 @@ const Create = () => {
     data.id = nanoid()
     data.isCompleted = false
 
-    // const copytodos = [...todo];
-    // copytodos.push(data);
-    // setTodo(copytodos);
-
     setTodo([...todo, data]);
     toast.success("Todo created!");
     reset();

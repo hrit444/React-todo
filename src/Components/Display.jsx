@@ -30,6 +30,7 @@ const Display = () => {
     copy.push(copy[index]);
     copy.splice(index,1);
     setTodo(copy)
+    
   }
 
   const renderTodos = todo.map((elem) => {
